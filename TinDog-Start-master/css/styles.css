@@ -20,14 +20,21 @@ p {
   font-weight: 600;
 }
 
-#title {
-  background: #1A4D2E;
-  color: #fff;
-  text-align: left;
-}
+/* Containers */
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #357C3C;
+  color: #fff;
+}
+
+.white-section {
+background-color: #fff;
 }
 
 /* Navigation Bar*/
@@ -55,6 +62,14 @@ p {
   margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+  background-color: #1A4D2E;
+}
+
 /* Title Image */
 .title-img {
   width: 20%;
@@ -65,8 +80,6 @@ p {
 
 /* Features Section */
 #features {
-  padding: 7% 15%;
-  background-color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -90,10 +103,6 @@ p {
 }
 
 /* Testimonials Section */
-#testimonials {
-  background-color: #357C3C;
-  color: #fff;
-}
 
 .testimonial-text {
   font-size: 3rem;
@@ -107,12 +116,7 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 #press {
-  background-color: #357C3C;
   padding-bottom: 3%;
 }
 
@@ -142,16 +146,8 @@ p {
 }
 
 /* Call To Action Section */
-#cta {
-  background-color: #357C3C;
-  color: #fff;
-  padding: 7% 15%;
-}
 
 /* Footer Section */
-#footer {
-  padding: 7% 15%;
-}
 
 .social-icon {
   margin: 20px 10px;
